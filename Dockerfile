@@ -1,4 +1,4 @@
-FROM centos
+FROM ubuntu:latest
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install default-jdk wget
 RUN mkdir /usr/local/tomcat
